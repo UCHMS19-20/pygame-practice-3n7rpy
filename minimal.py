@@ -12,6 +12,7 @@ while True:
     # do something for each event in the event queue (list of things that happen)
     for event in pygame.event.get():
         # Check to see if the current event is a QUIT event
+        print(event)
         if event.type == pygame.QUIT:
             # If so, exit the program
             sys.exit()
